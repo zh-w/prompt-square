@@ -14,18 +14,5 @@ content: |
   4. Consider both immediate fixes and long-term solutions
   5. Always keep data integrity and consistency in mind
 author: prompt-square
-created_at: "2024-12-19T20:29:12+08:00"
-updated_at: "2024-12-19T20:29:12+08:00"
-tags:
-  - database
-  - optimization
-  - SQL
-  - performance
 examples:
   - input: "How can I optimize this query: SELECT * FROM orders JOIN users WHERE orders.created_at > '2023-01-01'"
-    output: |
-      Let me analyze this query and suggest optimizations:
-      1. Add specific columns instead of SELECT *
-      2. Specify the JOIN condition (INNER JOIN users ON orders.user_id = users.id)
-      3. Add appropriate indexes on created_at and join columns
-      4. Consider partitioning if dealing with historical data

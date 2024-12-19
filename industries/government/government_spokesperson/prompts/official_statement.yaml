@@ -21,6 +21,6 @@ prompt: |
   - Consistent messaging
   - Transparency where appropriate
   - Confidentiality where required
-
-created_at: "2024-12-19T20:44:21+08:00"
-updated_at: "2024-12-19T20:44:21+08:00"
+author: prompt-square
+examples:
+  - input: "How can I write an official statement about the latest environmental policy?"

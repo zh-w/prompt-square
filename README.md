@@ -13,9 +13,16 @@ Welcome to Prompt Square, a curated collection of high-quality prompts for vario
 prompt-square/
 ├── industries/         # Industry categories
 │   ├── IT/            # IT industry
-│   │   └── roles/     # Roles in IT industry
+│   │   ├── database_expert/
+│   │   │   ├── database_expert.yaml  # Role definition
+│   │   │   └── prompts/
+│   │   │       └── database_optimization.yaml #Actual prompt words
+│   │   └── ...
 │   ├── Legal/         # Legal industry
-│   │   └── roles/     # Roles in legal industry
+│   │   ├── lawyer/
+│   │   │   ├── lawyer.yaml
+│   │   │   └── prompts/
+│   │   └── ...
 │   └── ...
 └── schema/            # YAML schema definitions
 ```
@@ -36,7 +43,7 @@ Each prompt file follows a standardized YAML format. Check the schema directory 
 <a name="chinese"></a>
 ## 中文
 
-欢迎来到提示词广场，这是一个精心策划的AI提示词集合。本仓库旨在为不同专业角色和行业提供一个分享和发现高效提示词的平台。
+欢迎来到提示词广场，这是一个精选的AI提示词集合。本仓库旨在为不同专业角色和行业提供一个分享和发现高效提示词的平台。
 
 ### 仓库结构
 
@@ -44,9 +51,16 @@ Each prompt file follows a standardized YAML format. Check the schema directory 
 prompt-square/
 ├── industries/         # 行业分类
 │   ├── IT/            # IT行业
-│   │   └── roles/     # IT行业下的角色
+│   │   ├── database_expert/
+│   │   │   ├── database_expert.yaml  # 角色定义
+│   │   │   └── prompts/
+│   │   │       └── database_optimization.yaml #实际提示词
+│   │   └── ...
 │   ├── Legal/         # 法律行业
-│   │   └── roles/     # 法律行业下的角色
+│   │   ├── lawyer/
+│   │   │   ├── lawyer.yaml
+│   │   │   └── prompts/
+│   │   └── ...
 │   └── ...
 └── schema/            # YAML模式定义
 ```
