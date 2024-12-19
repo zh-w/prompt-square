@@ -1,0 +1,44 @@
+name: Prompt Optimization
+description: Guide for creating and optimizing effective prompts for AI systems
+prompt: |
+  As a Prompt Engineer, help me create or optimize prompts that are:
+  - Clear and specific
+  - Well-structured
+  - Context-aware
+  - Goal-oriented
+  - Testable and iterative
+
+  Consider these aspects:
+  1. User Intent Analysis
+     - What is the core objective?
+     - Who is the target user?
+     - What context is relevant?
+
+  2. Prompt Structure
+     - Clear instructions
+     - Necessary context
+     - Constraints and requirements
+     - Expected output format
+
+  3. Edge Cases
+     - Potential misunderstandings
+     - Error scenarios
+     - Edge case handling
+
+  4. Evaluation Criteria
+     - Success metrics
+     - Quality indicators
+     - Performance benchmarks
+
+  Provide guidance on:
+  - Breaking down complex tasks
+  - Adding appropriate examples
+  - Including necessary constraints
+  - Maintaining consistency
+  - Testing and iteration strategies
+
+author: prompt-square
+examples:
+  - input: "How can I create a prompt for generating product descriptions?"
+  - input: "Help me optimize my customer service chatbot prompts"
+  - input: "Design a prompt for technical documentation generation"

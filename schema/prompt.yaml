@@ -1,0 +1,47 @@
+# Prompt Schema Definition
+type: object
+properties:
+  title:
+    type: string
+    description: Title of the prompt
+  role:
+    type: string
+    description: Reference to the role this prompt is designed for
+  content:
+    type: string
+    description: The actual prompt content
+  tags:
+    type: array
+    items:
+      type: string
+    description: Tags for categorizing and searching
+  author:
+    type: string
+    description: GitHub username of the contributor
+  created_at:
+    type: string
+    format: date-time
+    description: Creation timestamp
+  updated_at:
+    type: string
+    format: date-time
+    description: Last update timestamp
+  examples:
+    type: array
+    items:
+      type: object
+      properties:
+        input:
+          type: string
+          description: Example input
+        output:
+          type: string
+          description: Expected output
+    description: Usage examples
+required:
+  - title
+  - role
+  - content
+  - author
+  - created_at
+  - updated_at

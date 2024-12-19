@@ -1,0 +1,26 @@
+# Role Schema Definition
+type: object
+properties:
+  name:
+    type: string
+    description: Role name (e.g., "Database Expert", "Senior Lawyer")
+  description:
+    type: string
+    description: Brief description of the role (max 100 words)
+  industry:
+    type: string
+    description: Industry category this role belongs to
+  created_at:
+    type: string
+    format: date-time
+    description: Creation timestamp
+  updated_at:
+    type: string
+    format: date-time
+    description: Last update timestamp
+required:
+  - name
+  - description
+  - industry
+  - created_at
+  - updated_at
